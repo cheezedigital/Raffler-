@@ -1,7 +1,6 @@
 Rails.application.routes.draw do
-
+  get 'raffle/index'
   resources :entries
 
-  get 'raffle/index'
 
 end
